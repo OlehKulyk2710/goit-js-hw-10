@@ -91,7 +91,7 @@ function createMarkupCountryInfo(data) {
 }
 
 function showMessageOneSymbol() {
-  Notify.info('Please enter at least one letter', {
+  Notify.warning('Please enter at least one letter', {
     width: '280px',
     position: 'center-top',
     distance: '10px',
